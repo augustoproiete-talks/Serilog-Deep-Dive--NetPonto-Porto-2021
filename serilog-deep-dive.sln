@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5AFDBCBD-114F-45CB-BF5C-60EFBE224038}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "asset", "asset", "{05FB6EAD-CBFA-448D-8022-80DF9A51ABEA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CODEOWNERS = CODEOWNERS
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		LICENSE = LICENSE
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnricher", "src\CustomEnricher\CustomEnricher.csproj", "{A023AEF4-0E29-4D15-B50E-E1A1AC8C8528}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomSink", "src\CustomSink\CustomSink.csproj", "{04A0C19D-BAAB-4DBB-89B3-380452633280}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomSinkPeriodicBatching", "src\CustomSinkPeriodicBatching\CustomSinkPeriodicBatching.csproj", "{8276EA31-8F5C-467D-B3EE-455CB79DC808}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomFormatter", "src\CustomFormatter\CustomFormatter.csproj", "{72B9BEF4-69CF-481E-873B-8BA57F33FA8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomTheme", "src\CustomTheme\CustomTheme.csproj", "{795227F5-D577-4FC4-8D01-23C124B07CC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubLoggers", "src\SubLoggers\SubLoggers.csproj", "{7EEE51DC-0DDD-44E6-9F0D-9DC74F92AAC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomThemeWpf", "src\CustomThemeWpf\CustomThemeWpf.csproj", "{25A008D1-BFC8-4564-B01B-00566175BBB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubLoggersWithMap", "src\SubLoggersWithMap\SubLoggersWithMap.csproj", "{D2DBFC0C-972C-4135-B938-C788547AF9B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomSinkWrap", "src\CustomSinkWrap\CustomSinkWrap.csproj", "{2726E9EF-C25B-44DD-99CA-F8324FD0934E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A023AEF4-0E29-4D15-B50E-E1A1AC8C8528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A023AEF4-0E29-4D15-B50E-E1A1AC8C8528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A023AEF4-0E29-4D15-B50E-E1A1AC8C8528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A023AEF4-0E29-4D15-B50E-E1A1AC8C8528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04A0C19D-BAAB-4DBB-89B3-380452633280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04A0C19D-BAAB-4DBB-89B3-380452633280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04A0C19D-BAAB-4DBB-89B3-380452633280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04A0C19D-BAAB-4DBB-89B3-380452633280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8276EA31-8F5C-467D-B3EE-455CB79DC808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8276EA31-8F5C-467D-B3EE-455CB79DC808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8276EA31-8F5C-467D-B3EE-455CB79DC808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8276EA31-8F5C-467D-B3EE-455CB79DC808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B9BEF4-69CF-481E-873B-8BA57F33FA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B9BEF4-69CF-481E-873B-8BA57F33FA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B9BEF4-69CF-481E-873B-8BA57F33FA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B9BEF4-69CF-481E-873B-8BA57F33FA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795227F5-D577-4FC4-8D01-23C124B07CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795227F5-D577-4FC4-8D01-23C124B07CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795227F5-D577-4FC4-8D01-23C124B07CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795227F5-D577-4FC4-8D01-23C124B07CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEE51DC-0DDD-44E6-9F0D-9DC74F92AAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEE51DC-0DDD-44E6-9F0D-9DC74F92AAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEE51DC-0DDD-44E6-9F0D-9DC74F92AAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEE51DC-0DDD-44E6-9F0D-9DC74F92AAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A008D1-BFC8-4564-B01B-00566175BBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A008D1-BFC8-4564-B01B-00566175BBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A008D1-BFC8-4564-B01B-00566175BBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A008D1-BFC8-4564-B01B-00566175BBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DBFC0C-972C-4135-B938-C788547AF9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DBFC0C-972C-4135-B938-C788547AF9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DBFC0C-972C-4135-B938-C788547AF9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DBFC0C-972C-4135-B938-C788547AF9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2726E9EF-C25B-44DD-99CA-F8324FD0934E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2726E9EF-C25B-44DD-99CA-F8324FD0934E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2726E9EF-C25B-44DD-99CA-F8324FD0934E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2726E9EF-C25B-44DD-99CA-F8324FD0934E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A023AEF4-0E29-4D15-B50E-E1A1AC8C8528} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{04A0C19D-BAAB-4DBB-89B3-380452633280} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{8276EA31-8F5C-467D-B3EE-455CB79DC808} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{72B9BEF4-69CF-481E-873B-8BA57F33FA8C} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{795227F5-D577-4FC4-8D01-23C124B07CC6} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{7EEE51DC-0DDD-44E6-9F0D-9DC74F92AAC2} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{25A008D1-BFC8-4564-B01B-00566175BBB1} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{D2DBFC0C-972C-4135-B938-C788547AF9B3} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+		{2726E9EF-C25B-44DD-99CA-F8324FD0934E} = {5AFDBCBD-114F-45CB-BF5C-60EFBE224038}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B09C3A66-1D8D-4C5A-A564-05D17910191E}
+	EndGlobalSection
+EndGlobal
